@@ -17,13 +17,32 @@ p {
 	font-size: 14px;
 	color: gray;
 }
+
+@media screen and (max-width:719px) {
+	#sidebar {
+		display: none;
+	}
+	#mini-sidebar {
+		display: block;
+	}
+}
+
+@media screen and (min-width:720px) {
+	#mini-sidebar {
+		display: none;
+	}
+	#sidebar {
+		display: block;
+	}
+}
+
+
 #sidebar {
 	width: 200px;
 	min-height: 200px;
 	background: #000;
 	border: solid 1px black;
 }
-
 .header {
 	height: 50px;
 	margin: 15px 20px;
