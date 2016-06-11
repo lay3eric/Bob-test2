@@ -21,6 +21,7 @@ p {
 	width: 200px;
 	min-height: 200px;
 	background: #000;
+	border: solid 1px black;
 }
 
 .header {
@@ -30,7 +31,7 @@ p {
 .header h1 {
 	text-decoration: none;
 	display: inline-block;
-	margin: 10px;
+	margin: 0 10px;
 	vertical-align: middle;
 }
 .mark {
