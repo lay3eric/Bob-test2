@@ -36,7 +36,46 @@ p {
 	}
 }
 
-
+#mini-sidebar {
+	width: 100vw;
+	height: 30px;
+	background: #000;
+}
+.mini-sidebar h1{
+	height: 30px;
+	color: white;
+	padding: 0 40px;
+	vertical-align: middle;
+}
+.mini-sidebar h1::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0;
+	position: relative;
+}
+.mini-sidebar {
+	height: 100%;
+	border-left: solid 1px white;
+	border-right: solid 1px white;
+	display: inline-block;
+}
+.fa {
+	width: 30px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+#mini-sidebar::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0;
+	position: relative;
+}
 #sidebar {
 	width: 200px;
 	min-height: 200px;
