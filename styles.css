@@ -28,7 +28,7 @@ p {
 	height: 50px;
 	margin: 15px 20px;
 }
-.header h1 {
+.header a {
 	text-decoration: none;
 	display: inline-block;
 	margin: 0 10px;
@@ -38,12 +38,14 @@ p {
 	width: 40px;
 	height: 40px;
 	background:green;
-	color: white;
-	font-size: 30px;
-	padding: 6px;
+	padding: 5px;
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
+}
+.mark a {
+	color: #fff;
+	font-size: 30px;
 }
 .header::before {
 	content: "";
@@ -61,7 +63,7 @@ p {
 	text-decoration: none;
 }
 .main:hover {
-	background: #e31919;
+	background: #4d4d4d;
 }
 #sidebar ul li{
 	list-style: none;
