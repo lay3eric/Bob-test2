@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Helvetica, times, serif;
+	font-weight: normal;
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #e8e8e8;
+}
+p {
+	font-size: 14px;
+	color: gray;
+}
+#sidebar {
+	width: 200px;
+	min-height: 200px;
+	background: #000;
+}
+
+.header {
+	height: 50px;
+	margin: 15px 20px;
+}
+.header h1 {
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+}
+.mark {
+	width: 40px;
+	height: 40px;
+	background:green;
+	color: white;
+	font-size: 30px;
+	padding: 6px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header::before {
+	content: "";
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+.list {
+	padding: 10px 20px;
+	border-top: solid 1px #545454;
+}
+.list a{
+	text-decoration: none;
+}
+.main:hover {
+	background: #e31919;
+}
+#sidebar ul li{
+	list-style: none;
+}
+.list-item {
+	margin: 5px 0;
+} 
+.list-item p:hover {
+	color: #fff;
+}
